@@ -12,5 +12,6 @@ archivePath = "versions/" + "web_static_" + day + ".tgz"
 
 
 def do_pack():
+    """ This function creates an archive """
     local('mkdir versions')
     local('tar -cvzf {} web_static'.format(archivePath))
