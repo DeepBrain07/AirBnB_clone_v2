@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 """ This Fabric script  distributes an archive to
 your web servers, using the function do_deploy """
 from fabric.api import *
